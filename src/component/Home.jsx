@@ -16,7 +16,7 @@ import "./Home.css";
 
 const Home = () => {
    const { getRootProps, getInputProps } = useDropzone({
-   your options for dropzone here
+   // your options for dropzone here
    });
   const [applicants, setApplicants] = useState([]);
   const [selectedApplicant, setSelectedApplicant] = useState(null);
