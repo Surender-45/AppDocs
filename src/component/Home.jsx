@@ -213,7 +213,7 @@ const Home = () => {
           </Card>
         ))}
       </div>
-
+<hr/>
       {applicants.length > 0 && (
         <div className="footer-navigation">
           <Button
