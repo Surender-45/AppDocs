@@ -10,7 +10,7 @@ import {
   CardContent,
   Alert, Stack
 } from "@mui/material";
-import { useDropzone } from "react-dropzone";
+
 import { Delete as DeleteIcon, Add as AddIcon } from "@mui/icons-material";
 import "./Home.css";
 
