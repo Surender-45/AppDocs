@@ -15,9 +15,9 @@ import { Delete as DeleteIcon, Add as AddIcon } from "@mui/icons-material";
 import "./Home.css";
 
 const Home = () => {
-  // const { getRootProps, getInputProps } = useDropzone({
-  //   // your options for dropzone here
-  // });
+   const { getRootProps, getInputProps } = useDropzone({
+   your options for dropzone here
+   });
   const [applicants, setApplicants] = useState([]);
   const [selectedApplicant, setSelectedApplicant] = useState(null);
   const [newApplicantName, setNewApplicantName] = useState("");
